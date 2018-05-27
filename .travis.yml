@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: SLe2LksBGsu5ML5Hj0SaUg2qgyKe7TSW8yfME190+7XUmeqsdllhCdUnSJivsTJqmy3QV+gpu3k/wAsfvBnDNaU7aGRmjrMdhmulTu55bJielQqXLAjMMCER578hXhc0zESXizeZLBmSgH7O+KaeCtP7rlITk5fkSGhqKmXDGPvzXoHoSVhiEDUSIFVu6b4wUFz9zY1zgKpjzY0dTJwf0nr6BkbqfdoDjXeBC1Vv0Ps18tEhUjl7+gUFtv9CwzY47jJVyn4L+Xt+3iz6YMG95rAU7TMBT553ttwKTPkb0mnqV4Zbg4g+TnIoaPNHfpR4mYLJvdmizqTnjpJDJU0pfzNWWRa1qgk5EuZmWlew356x3JEa4GWe9g6Bhu2CdNRqvXAuVoqlyhdHjY0VXcdK4yIbh21Zd8Xk9H5xqNNMWd2Z2yhchkUN2YZgn3blYBKa9Qc/oNJeD1KHG3npCRQIKiTpPs8wvCMQ6qvgWAHnw/ERUeykpGTuzwIhB8ume9RES+45KCaqhEBQuRpV656vV5TbHgCeAq5KdIsajKOCsbmVEwx8L6YsCD0JkUOd5NPVd0NtamxoIUu9LwsBhV3XndBmzyUIoDpaYcZ/mtXE+h7yHCmVKlJQkKXHJednFaiZPabXjIxxpO+hgEBsp4HCXFrkyzjNJ3qRvIYeAcE9vio=
+  app: ancient-chamber-73823
+  on:
+    repo: nysky1/ode-shopping-list-integration-tests
+    branch: tests-for-recipes
